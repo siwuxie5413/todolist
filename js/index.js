@@ -6,6 +6,7 @@ $(function () {
             if ($(this).val() !== "") {
                 local.push({content: $(this).val(), done: false});
                 setData(JSON.stringify(local));
+                $(this).val("");
                 load();
             }
         }
