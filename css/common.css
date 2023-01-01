@@ -1,0 +1,143 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.w{
+    width: 1000px;
+    border: 1px solid red;
+    margin: 10px auto;
+    text-align: center;
+    background-color: rgba(255,246,143,.3);
+}
+.clear::before,.clear::after{
+    display: table;
+    content: "";
+}
+.clear::after{
+    clear: both;
+}
+
+
+
+.header {
+    background-color: black;
+    height: 100px;
+    line-height: 100px;
+}
+.header h1{
+    color: white;
+    vertical-align: center;
+}
+.header input{
+    height: 60px;
+    width: 400px;
+    margin-left: 100px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 24px;
+    outline: none;
+}
+
+
+.count{
+    display: inline-block;
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid red;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
+
+.title{
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    /*border: 1px solid black;*/
+    margin-bottom: 20px;
+}
+
+#todolist  li{
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    background-color:rgba(	224,255,255,.3) ;
+    border: 1px solid black;
+    list-style: none;
+}
+
+#todolist li INPUT,p,a{
+    display: inline-block;
+
+}
+
+#todolist li INPUT{
+    float: left;
+    margin-left: 50px;
+    /*vertical-align: middle;*/
+    margin-top: 10px;
+}
+
+#todolist li a {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: gray;
+    float: right;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
+#donelist  li{
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    background-color: rgba(255,250,205,.3);
+    border: 1px solid black;
+    list-style: none;
+}
+
+#donelist li INPUT,p,a{
+    display: inline-block;
+
+}
+
+#donelist li INPUT{
+    float: left;
+    margin-left: 50px;
+    /*vertical-align: middle;*/
+    margin-top: 10px;
+}
+
+#donelist li a {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: gray;
+    float: right;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
+
+.count2{
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid red;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
